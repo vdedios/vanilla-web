@@ -1,0 +1,216 @@
+/* Color palette
+ * white
+ * dark : #403D55
+ * soft grey : #F2F0F9
+ * vanilla yelllow : #F8DF42
+*/
+
+
+:root {
+    color : #403D55;
+    font-family: 'Roboto Mono', monospace;
+    font-weight : 500;
+    font-size : 14px;
+}
+
+a{
+    text-decoration: none;
+    color : #403D55;
+}
+
+body{
+    margin : 0;
+    padding : 0;
+}
+
+/*Styling scrollbar*/
+body::-webkit-scrollbar{
+    width : 0.5rem;
+}
+
+body::-webkit-scrollbar-track{
+    background : #403D55; 
+}
+
+body::-webkit-scrollbar-thumb{
+    background : #F8DF42; 
+}
+
+button:focus {
+    outline:0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color : #403D55;
+    z-index : 3; 
+}
+
+header{
+    background-color : #F2F0F9!important;
+}
+
+h1{
+    margin 0rem 5rem;
+    text-align : justify;
+}
+
+main{
+    background-image : url("../assets/images/fondo5.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin : 0px;
+    padding: 1rem 0;
+}
+
+p{
+    font-weight : 300;
+}
+
+ul{
+    font-size : 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.back-logo{
+    background-color : #403D55;
+    border-radius : 4px;
+    color : #F8DF42;
+    display : inline-block;
+    text-align : center;
+    padding-bottom : 3px;
+    width : 8em;
+}
+
+.card{
+    background-color : #F2F0F9;
+    box-shadow : 0 6px 12px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius : 20px;
+    font-size : 18px;
+    margin-top : 40px;
+    margin-bottom : 10px;
+    padding : 20px;
+    text-align : justify;
+    z-index : 1;
+}
+
+.image-welcome{
+    display : block;
+    width : 100%;
+    padding-top : 10rem;
+}
+
+.animate-card{
+    animation-name: vert;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    position : relative;
+}
+
+.animate-svg{
+    animation-name: hor;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    position : relative;
+}
+
+.content{
+    padding-top : 1rem;
+}
+
+.line-component{
+    width : 100%;
+    padding : 6rem;
+}
+
+@keyframes vert {
+  0%   {left:0px; top:2000px;}
+  50%   {left:0px; top:0px;}
+  65%   {left:0px; top:20px;}
+  90%   {left:0px; top:-20px;}
+  100%   {left:0px; top:00px;}
+}
+
+@keyframes hor {
+  0%   {left:-2000px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+.logo{
+    /*cambiar a flexbox*/
+    font-weight : 900;
+}
+
+.navbar{
+    background-color : #F2F0F9;
+    position : fixed;
+    width : 100vw;
+    z-index : 100;
+}
+
+.navbar-nav{
+    display : flex;
+    align-items : center;
+    justify-content: flex-end;
+}
+
+.navbar-item{
+    /*ver como eliminiar los colores de los enlaces sin hacer una clase nueva*/
+    color : #403D55 !important;
+    margin: 0.5em 2em;
+}
+
+.navbar-item:first-child{
+    margin-right : auto;
+}
+
+.navbar-anchor{
+}
+
+.navbar-anchor:hover{
+    border-bottom : 2px solid #403D55;
+}
+
+.night{
+    background-color : #F2F0F9;
+    border : solid 3px #403D55;
+    border-radius : 12px;
+    color : #403D55;
+    display : inline-block;
+    font-size : 13px;
+    font-weight : 900;
+    margin : 0.5em;
+    padding : 5px;
+}
+
+.night:hover{
+    background-color : #403D55;
+    border-color : #403D55;
+    color : white;
+}
+
+.welcome-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 100%;
+}
+
+.footer-content{
+    color : #F2F0F9!important;
+    text-align : center;
+    width : 100%;
+    padding: 2em 0;
+}
+
+.footer-anchor{
+    color : #F2F0F9!important;
+}

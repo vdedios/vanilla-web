@@ -1,0 +1,77 @@
+body {
+    margin-left: 200px;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.transition{
+    transition: 1.2s all;
+}
+
+.opacity{
+    opacity: 0;
+}
+
+.opacity:hover{
+    opacity: 1;
+}
+
+.fuente:hover{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.fondo:hover{
+    background: green;
+}
+
+.fondo:active{
+    background: red;
+}
+
+.translate:hover{
+    transform: translateX(100px);
+}
+
+.rotate:hover{
+    transform: rotate(360deg);
+}
+
+.scale:hover{
+    transform: scale(2);
+}
+
+.skew:hover{
+    transform: skew(-25deg);
+}
+
+.logo{
+    animation: logo 4s infinite;
+}
+
+@keyframes logo{
+    0%{
+        transform: translateX(-100%);
+        background-color: red;
+        opacity: 0;
+    }
+    50%{
+        background-color: red;
+        opacity: 1;
+    }
+    60%{
+        transform: translateX(80%);
+        background-color: green;
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(100vw);
+        background-color: transparent;
+        opacity: 1;
+    }
+
+}
+

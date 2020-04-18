@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #EEE;
+}
+
+div div{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.caja-1{
+    background: red;
+    color: white;
+}
+
+.caja-2{
+    background: blue;
+    color: white;
+}
+
+.caja-3{
+    background-color: turquoise;
+    display: inline;
+}
+
+.caja-4{
+    background-color: khaki;
+    display: inline;
+}
+
+.caja-5{
+    background-color: lime;
+    display: inline-block;
+}
+
+.caja-6{
+    background-color: salmon;
+    display: inline-block;
+}
+
+.caja-7{
+    display: none;
+    background: black;
+    color: white;
+}
