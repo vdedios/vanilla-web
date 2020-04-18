@@ -1,7 +1,7 @@
 <h1 align="center"><code>🍦Aprende web vanilla experimentando</code></h1>
 <div align="center">
     <sub>
-        <h3>👉 Para acceder al contenido pincha <a href="https://vdedios.github.io/taller_web/" target="_blank">aquí</a></h3>
+        <h3>👉 Para acceder al contenido pincha <a href="https://vdedios.github.io/vanilla-web/" target="_blank">aquí</a></h3>
     </sub>
 </div>
 
