@@ -1,10 +1,13 @@
-/* Color palette
+/* Color palette - LIGHT
  * white
  * dark : #403D55
  * soft grey : #F2F0F9
  * vanilla yelllow : #F8DF42
 */
 
+/* Color palette - DARK
+ * vanilla yelllow : define
+*/
 
 :root {
     color : #403D55;
@@ -66,7 +69,8 @@ main{
     justify-content: center;
     align-items: center;
     margin : 0px;
-    padding: 1rem 0;
+    padding : 1rem 0;
+    padding-top : 4.5rem;
 }
 
 p{
@@ -91,7 +95,6 @@ ul{
 }
 
 .card{
-    background-color : #F2F0F9;
     box-shadow : 0 6px 12px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
     border-radius : 20px;
     font-size : 18px;
@@ -100,6 +103,19 @@ ul{
     padding : 20px;
     text-align : justify;
     z-index : 1;
+}
+
+.card::after {
+    content: "";
+    background: url(../assets/images/white.png);
+    border-radius : 20px;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
 }
 
 .image-welcome{
@@ -164,8 +180,20 @@ ul{
 
 .navbar-item{
     /*ver como eliminiar los colores de los enlaces sin hacer una clase nueva*/
+    display : flex;
+    justify-content: center;
+    align-items: center;
     color : #403D55 !important;
     margin: 0.5em 2em;
+}
+
+.nav-icons{
+    height : 1.2rem;
+    padding-right : 0.25rem;
+}
+
+.nav-icons-moon{
+    padding-right : 0rem;
 }
 
 .navbar-item:first-child{
@@ -173,15 +201,18 @@ ul{
 }
 
 .navbar-anchor{
+    border-bottom : solid 2px transparent;
+    padding-bottom : 0.2rem; 
+
 }
 
 .navbar-anchor:hover{
-    border-bottom : 2px solid #403D55;
+    border-color : #403D55;
 }
 
 .night{
     background-color : #F2F0F9;
-    border : solid 3px #403D55;
+    border : solid 3px transparent;
     border-radius : 12px;
     color : #403D55;
     display : inline-block;
@@ -193,8 +224,7 @@ ul{
 
 .night:hover{
     background-color : #403D55;
-    border-color : #403D55;
-    color : white;
+    color : #F8DF42!important;
 }
 
 .welcome-image{
@@ -212,5 +242,5 @@ ul{
 }
 
 .footer-anchor{
-    color : #F2F0F9!important;
+    color : #F8DF42!important;
 }
