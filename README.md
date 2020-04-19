@@ -1,12 +1,18 @@
-<h1 align="center"><code>🍦Aprende web vanilla experimentando</code></h1>
+<h1 align="center"><code>🍦Learn vanilla web by doing!</code></h1>
 <div align="center">
     <sub>
-        <h3>👉 Para acceder al contenido pincha <a href="https://vdedios.github.io/vanilla-web/" target="_blank">aquí</a></h3>
+        <h3>👉 To visit the website click <a href="https://vdedios.github.io/vanilla-web/" target="_blank">here!</a></h3>
     </sub>
 </div>
 
-## Instrucciones
+## What's all this?
 <div>
-  <p>Navega por las diferentes secciones y edita en tiempo real los contenidos de cada una de ellas desde la consola de desarrollador de tu navegador. Recuerda, la mejor forma de aprender a programar es haciendo y no mirando!</p>
-  <p>Si no sabes cómo usar o acceder a la consola de desarrollador de tu navegador <a href="https://lmgtfy.com/?q=C%C3%B3mo+usar+a+las+herramientas+de+desarrollador+de+mi+navegador" target="_blank">aquí</a> encontrarás ayuda</p>
+  <p>This is vanilla web. No frameworks, libraries or any other help. Be brave, this will give you a solid foundation.</p>
+  <p>This site is meant to be a list of exercises to improve your web development skills.</p>
+</div>
+
+## Instructions
+<div>
+  <p> The idea is simple, surf through all different website sections, pick an example/concept you want to master and start replicating it. If you encounter problems doing so just use your built in explorer developer tools!</p>
+  <p>And always remember, learn by doing not by looking</p>
 </div>
