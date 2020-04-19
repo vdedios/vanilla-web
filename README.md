@@ -4,6 +4,7 @@
         <h3>👉 To visit the website click <a href="https://vdedios.github.io/vanilla-web/" target="_blank">here!</a></h3>
     </sub>
 </div>
+
 ## What's all this?
 <div>
   <p>This is vanilla web. No frameworks, libraries or any other help. Be brave, this will give you a solid foundation.</p>
